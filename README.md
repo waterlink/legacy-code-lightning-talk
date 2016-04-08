@@ -4,7 +4,9 @@ _(lightning edition)_
 
 by That TDD Fellow
 
-@waterlink000
+Oleksii Fedorov
+
+[@waterlink000](https://twitter.com/waterlink000)
 
 
 
@@ -31,7 +33,7 @@ Lets define _"legacy code"_ for the purpose of this talk.
 
 ### Historic velocity
 
-_.. placeholder for graph of the current velocity .._
+![current-velocity](./slower-over-time-graph.png)
 
 
 
@@ -44,6 +46,8 @@ _.. placeholder for graph of the current velocity .._
 ### It is our responsibility to fix that
 
 .. over time ..
+
+.. one small step at a time ..
 
 
 ### "Big Refactoring Project" is not a solution
@@ -78,21 +82,28 @@ prioritize parts of legacy code (by frequency of change)
 i.e.: when faced with new feature, that touches legacy code:
 
 
-### Make change easy to make
+### Make change easy
 
 i.e.:
 
-- write tests for related functionality
+- increase test coverage for related functionality
 - clean up relevant code
 
 
-### Then make easy change
+### Then make an easy change
+
+
+
+## Be faster one small step at a time
+
+![increasing velocity](./faster-over-time-graph.png)
+
+
+### While delivering increasing business value
 
 
 
 ## Thank you
-
-### Q & A
 
 Twitter: [twitter.com/waterlink000](https://twitter.com/waterlink000)
 
